@@ -1,4 +1,9 @@
 @import url(./stylish.css);
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .menu-gallery {
     display: flex;
@@ -6,6 +11,10 @@
     align-items: flex-start;
     padding: 20px;
     margin: 0px;
+}
+
+.img{
+    height: 23vh;
 }
 
 .menu-item {
